@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="payments.razorpay.MainActivity">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:src="@drawable/inappimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+            <EditText
+                android:id="@+id/orderamount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:hint="Enter Amount"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_margin="20dp"
+                android:inputType="number"/>
+
+
+            <Button
+                android:id="@+id/startpayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="#012652"
+                android:text="Start Payment"
+                android:textColor="#ffffff" />
+
+</LinearLayout>
+
