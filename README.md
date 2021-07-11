@@ -8,10 +8,10 @@
 The project **"Razorpay Payment"** is an Android Application to make Payments through Razorpay Interface. Integrated Razorpay Android Standard SDK to the existing app and used hardcoded values to set Payee details. The amount to be Payed is set by the User from the App which is Parsed into the API to send the Payee the specified amount in Rupees. Made this project to demonstrate the support and integration of Payment gateways into custom 3rd party applications.
 
 ## 🌎 Released Android Application:
-
+https://github.com/Akash-Ramjyothi/Razorpay-Payments/raw/master/app-debug.apk
 
 ## 📽 Sample Demo:
-
+https://user-images.githubusercontent.com/54114888/125212361-87876280-e2ca-11eb-9c6c-ab10911cbf75.mp4
 
 ## 🏗 Built With:
 - Android Studio.
